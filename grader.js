@@ -36,6 +36,10 @@ var assertFileExists = function(infile) {
     return instr;
 };
 
+var downloadFile = function(url) {
+	return url;
+};
+
 var cheerioHtmlFile = function(htmlfile) {
     return cheerio.load(fs.readFileSync(htmlfile));
 };
